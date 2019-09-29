@@ -7,7 +7,7 @@ form.addEventListener("submit", evt => {
   const data2 = {
     title: `${form.elements.title.value}`,
     genre: `${form.elements.genre.value}`,
-    description$: `${form.elements.description.value}`
+    description: `${form.elements.description.value}`
   };
   addHeroToTheDom(data2);
   const postData = JSON.stringify(data2);
