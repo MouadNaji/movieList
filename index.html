@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="sec">
+      <form id="form">
+        <h1>Add a new Movie to the list</h1>
+        <label name="title">Movie Title:</label>
+        <br />
+        <input required placeholder="Type hero name" type="text" name="title" />
+        <br />
+        <label name="genre">Movie genre:</label>
+        <br />
+        <input required placeholder="Type real name" type="text" name="genre" />
+        <br />
+        <label name="description">Movie description:</label>
+        <br />
+        <textarea
+          placeholder="Type the abilities of the hero"
+          required
+          name="description"
+        ></textarea
+        ><br />
+        <input name="sub" type="submit" value="Add hero" />
+      </form>
+    </section>
+    <button id="button">Add Movie</button>
+    <template id="template1">
+      <div class="temp">
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+        <button class="btn">Delete me</button>
+      </div>
+    </template>
+
+    <div class="liste" id="liste"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
